@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c1ebe0f5-0061-8fbb-43b8-a378e64b9f4b}</ProjectGuid>
+    <ProjectGuid>{51e74413-fd60-b825-6f43-d7ef9db4f488}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\coinSpin.cs" />
      <Compile Include="Assets\collisionCoin.cs" />
      <Compile Include="Assets\movement.cs" />
     <Reference Include="UnityEngine">
@@ -567,31 +568,31 @@
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.14f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Shooter Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/jaishreebala/Desktop/Coding/Unity/Coin-Dash/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
