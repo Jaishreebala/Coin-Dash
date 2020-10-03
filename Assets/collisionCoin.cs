@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class collisionCoin : MonoBehaviour
 {
@@ -55,6 +56,7 @@ public class collisionCoin : MonoBehaviour
             if (score > 0)
             {
                 Debug.Log("YA DEAD");
+                Invoke("reload", 3);
             }
             else
             {
@@ -62,9 +64,16 @@ public class collisionCoin : MonoBehaviour
                 {
                     Debug.Log("You win :pppppp");
                     // collisionInfo.gameObject.GetComponent<MeshRenderer>().material = WinningStage;
+                    Invoke("reload", 3);
 
                 }
             }
         }
+
+
+    }
+    void reload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
